@@ -1,0 +1,101 @@
+#header-jumbotron{
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', serif;
+    color: rgb(58, 57, 57);
+    height: 31.5vh;
+    background-image: url(../assets/GettyImages-909203494.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.navbar-nav {
+    background-color: rgb(182, 25, 25);
+    border-radius: .5rem;
+}
+#congress-logo {
+    height: 50%; 
+    margin-left: 8.5%;  
+}
+#email {
+    font-size: 150%;
+    margin-right: 9%;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    height: 1.5rem;
+}
+#logo-email {
+    width: 50px;
+    height: 50px; 
+}
+#email:hover {
+    color: rgb(0, 26, 65);
+}
+#email-logo {
+    margin-right: .5%;
+}
+.navbar {
+    background-color: rgb(182, 25, 25);
+    height: 6rem;
+}
+body {
+    background-color: #f3f2f6;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%230056ff' fill-opacity='0.64' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.tabTitle {
+    font-family: 'Times New Roman', serif;
+    border: 2px solid rgb(14, 14, 141);
+    background-color: white;
+    border-radius: 5px;
+}
+.bTitle {
+    font-family: 'Times New Roman', serif;
+    text-decoration: underline;
+}
+.table {
+    border: 2px solid rgb(14, 14, 141);
+}
+.noFilter {
+    text-align: center;
+}
+#footer {
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+#logo-home {
+    width: 100%;
+    padding-top: 10%;
+}
+#dataTableHouse {
+    min-height: 25.6vh;
+}
+#dataTableSenate {
+    min-height: 30vh;
+}
+td{
+    width: 10vw;
+}
+#empty_table_placeholder {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+    #congress-logo {
+        margin-left: 1%;
+    }
+
+    #tgif-email-logo {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #tgif-email {
+        display: none;
+    }    
+    #tgif-email-logo {
+        margin-right: 10%;
+    }
+}
